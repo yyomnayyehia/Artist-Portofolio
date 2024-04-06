@@ -1,0 +1,72 @@
+@import '~bootstrap/scss/bootstrap';
+*{
+    margin:0;
+    padding:0;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+
+}
+  body ,html{
+ width: 100%;
+ height: auto;
+
+ } 
+ .gradient-background {
+  background: linear-gradient(to left, #1f2230, #34343d); 
+  min-height: 100vh;
+  
+ }
+.gradient-background h2{
+  color: #9fb3b6cc;
+    text-align: center;
+  font-size: 40px;
+  box-shadow: #2b0707;
+    margin-top: 60px;
+}
+
+.container{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.nav-pills{
+    display: flex;
+    margin-left: 240px;
+
+}
+.nav-pills .nav-link {
+    color: #a3b2c4e3;
+    background-color: #0002030a;
+    border-radius: 0; 
+    border: 1px solid transparent; 
+    margin-right: 15px; 
+    margin-top: 20px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+    
+    background-color: #313549; 
+    color: #727280d0; 
+    border-color: #000102a4; 
+}
+.logo {
+    position: absolute;
+    top: -119px;
+    left: -140px;
+
+}
+.card-img-top{
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+.card-text{
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-title{
+    font-size: 30px;
+    color: #4079ad;
+
+}

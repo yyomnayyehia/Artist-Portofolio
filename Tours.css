@@ -1,0 +1,323 @@
+.body,html{
+overflow-y:scroll;
+overflow-x: hidden;
+
+}
+.carouselbs{
+    position: relative;
+    top: -280px;
+    
+}
+
+.carouselbs img{
+    height:23rem;
+    width: 70%;
+}
+
+.container-fluid{
+background: linear-gradient(90deg, rgb(37, 37, 41) 0%, rgba(14, 14, 15, 0.993) 20%, rgb(3, 2, 63) 100%);    
+}
+.header{
+    display:block;
+}
+.container {
+        position: relative;
+        top: -119px;
+        right: 250px;
+    
+}
+.nav-pills{
+    position: relative;
+    top: -150px;
+    left:210px;
+}
+.nav-pills .nav-link {
+    color: #a3b2c4e3;
+    background-color: #0002030a;
+    border-radius: 0; 
+    border: 1px solid transparent;
+    margin-right: 15px; 
+
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+    
+    background-color: #313549; 
+    color: #727280d0; 
+    border-color: #000102a4; 
+}
+.tours{ 
+    margin-top: -200px;
+    color: #88aad3e3;
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: fit-content;
+    word-spacing: 15px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+}
+.button1{
+    position: relative;
+    left: 1050px;
+    margin-top: -40px;
+}
+.button2{
+    position: relative;
+    left: 1050px;
+    margin-top: -40px;
+}
+.button3{
+    position: relative;
+    left: 1050px;
+    margin-top: -40px;
+}
+.button4{
+    position: relative;
+    left: 1050px;
+    margin-top: -40px;
+}
+
+.tours h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #88aad3e3;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 500px;
+}
+   
+@media only screen and (max-width: 600px){
+    .body{
+        overflow-x: hidden;
+    }
+.button4{
+    position: relative;
+    left: 0px;
+    margin-top: -40px;
+}
+    .tours h1{
+        font-size: 30px;
+        font-weight: 700;
+        color: #88aad3e3;
+        text-align: center;
+        margin-top: -30px;
+        margin-left: 0px;
+    }
+    .carouselbs img{
+        height:23rem;
+        width: 100%;
+    }
+    .container {
+        position: relative;
+        top: -119px;
+        right: 0px;
+    
+    }
+    .nav-pills{
+        position: relative;
+        top: -150px;
+        left:0px;
+    }
+    .nav-pills .nav-link {
+        color: #a3b2c4e3;
+        background-color: #0002030a;
+        border-radius: 0;
+        border: 1px solid transparent;
+        margin-right: 15px; 
+    
+    }
+    
+    .nav-pills .nav-link.active,
+    .nav-pills .nav-link:hover {
+        
+        background-color: #313549; 
+        color: #727280d0; 
+        border-color: #000102a4;
+    }
+    .tours{ 
+        margin-top: -200px;
+        color: #88aad3e3;
+        font-weight: 300;
+        line-height: 1.5;
+        max-width: fit-content;
+        word-spacing: 15px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        
+    }
+    .tours h1{
+        font-size: 30px;
+        font-weight: 700;
+        color: #88aad3e3;
+        text-align: center;
+        margin-top: -30px;
+        margin-left: 0px;
+    }
+    .button1{
+        position: relative;
+        left: 0px;
+        margin-top: -40px;
+    }
+    .button2{
+        position: relative;
+        left: 0px;
+        margin-top: -40px;
+    }
+    .button3{
+        position: relative;
+        left: 0px;
+        margin-top: -40px;
+   
+}
+
+@media screen and (max-width: 600px){
+    .carouselbs img{
+        height:23rem;
+        width: 100%;
+    }
+    .container {
+        position: relative;
+        top: -119px;
+        right: 0px;
+    
+    }
+    .nav-pills{
+        position: relative;
+        top: -150px;
+        left:0px;
+    }
+    .nav-pills .nav-link {
+        color: #a3b2c4e3;
+        background-color: #0002030a;
+        border-radius: 0; 
+        border: 1px solid transparent; 
+        margin-right: 15px; 
+    
+    }
+    
+    .nav-pills .nav-link.active,
+    .nav-pills .nav-link:hover {
+        
+        background-color: #313549;
+        color: #727280d0; 
+        border-color: #000102a4; 
+    }
+    .tours{ 
+        margin-top: -200px;
+        color: #88aad3e3;
+        font-weight: 300;
+        line-height: 1.5;
+        max-width: fit-content;
+        word-spacing: 15px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        
+    }
+    .tours h1{
+        font-size: 30px;
+        font-weight: 700;
+        color: #88aad3e3;
+        text-align: center;
+        margin-top: -30px;
+        margin-left: 0px;
+    }
+    .button1{
+        position: relative;
+        left: 0px;
+        margin-top: -40px;
+    }
+    .button2{
+        position: relative;
+        left: 0px;
+        margin-top: -40px;
+    }
+    .button3{
+        position: relative;
+        left: 0px;
+        margin-top: -40px;
+    }
+    .button4{
+        position: relative;
+        left: 0px;
+        margin-top: -40px;
+    }
+}
+@media screen and (min-width:601){
+
+
+
+    .carouselbs img{
+        height:23rem;
+        width: 70%;
+    }
+    .container {
+        position: relative;
+        top: -119px;
+        right: 250px;
+    
+    }
+    .nav-pills{
+        position: relative;
+        top: -150px;
+        left:210px;
+    }
+    .nav-pills .nav-link {
+        color: #a3b2c4e3;
+        background-color: #0002030a;
+        border-radius: 0; 
+        border: 1px solid transparent;
+        margin-right: 15px; 
+    
+    }
+    
+    .nav-pills .nav-link.active,
+    .nav-pills .nav-link:hover {
+        
+        background-color: #313549; 
+        color: #727280d0; 
+        border-color: #000102a4; 
+    }
+    .tours{ 
+        margin-top: -200px;
+        color: #88aad3e3;
+        font-weight: 300;
+        line-height: 1.5;
+        max-width: fit-content;
+        word-spacing: 15px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        
+    }
+    .button1{
+        position: relative;
+        left: 1050px;
+        margin-top: -40px;
+    }
+    .button2{
+        position: relative;
+        left: 1050px;
+        margin-top: -40px;
+    }
+    .button3{
+        position: relative;
+        left: 1050px;
+        margin-top: -40px;
+    }
+    .button4{
+        position: relative;
+        left: 1050px;
+        margin-top: -40px;
+    }
+    .tours h1{
+        font-size: 50px;
+        font-weight: 700;
+        color: #88aad3e3;
+        text-align: center;
+        margin-top: -30px;
+        margin-left: 500px;
+    }
+
+}
+    
